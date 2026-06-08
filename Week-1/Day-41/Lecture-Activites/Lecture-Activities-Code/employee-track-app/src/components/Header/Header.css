@@ -13,6 +13,7 @@
     Segoe UI,
     Roboto,
     sans-serif; /* clean modern font stack */
+  border-radius: 0 0 12px 12px; /* rounded bottom corners for modern look */
 }
 
 /* LEFT SIDE (TITLE + WELCOME TEXT GROUP) */
