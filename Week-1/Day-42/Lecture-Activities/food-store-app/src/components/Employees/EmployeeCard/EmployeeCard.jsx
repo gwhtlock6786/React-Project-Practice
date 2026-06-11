@@ -1,4 +1,4 @@
-
+import "./EmployeeCard.css";
 
 const EmployeeCard = ({ employee }) => {
 
