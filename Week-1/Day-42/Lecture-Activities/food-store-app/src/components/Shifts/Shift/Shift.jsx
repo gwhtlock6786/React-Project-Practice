@@ -1,4 +1,4 @@
-
+import './Shift.css'
 
 const Shift = ({shift = {} }) => {
 
@@ -7,8 +7,11 @@ const Shift = ({shift = {} }) => {
     position,
     startTime,
     endTime} = shift;
+
+      const roleClass = position.toLowerCase(); 
+
   return (
-   <article className="shift-card">
+   <article className={`shift-card ${roleClass}`}>
     <h4 className="shift-employee">
         {employee}
     </h4>

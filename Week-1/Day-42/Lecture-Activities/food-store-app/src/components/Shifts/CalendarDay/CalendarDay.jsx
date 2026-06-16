@@ -1,5 +1,5 @@
 import Shift from "../Shift/Shift";
-
+import './CalendarDay.css'
 
 const CalendarDay = ({day, shifts}) => {
 

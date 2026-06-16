@@ -1,5 +1,6 @@
 import Calendar from "../Calendar/Calendar";
 import { groupShiftsByDay } from "../../../utils/groupShiftsByDay"
+import './ShiftDisplay.css';
 
 const ShiftDisplay = ({ shifts }) => {
 
