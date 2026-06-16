@@ -1,3 +1,4 @@
+import "./ProductCard.css"
 
 const ProductCard = ({ product }) => {
 
@@ -10,7 +11,7 @@ const ProductCard = ({ product }) => {
 
   return (
 
-    <div className={getStockStatus(stock)}>
+    <div className={`${getStockStatus(stock)}`}>
       <h3>{name}</h3>
       <p>{description}</p>
         <p>${price.toFixed(2)}</p>
