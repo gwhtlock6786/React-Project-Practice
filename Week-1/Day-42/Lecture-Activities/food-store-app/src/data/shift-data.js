@@ -25,7 +25,7 @@ export const shiftData = [
   },
   {
     id: 4,
-    employee: "Alice Johnson",
+    employee: "Ethan Joe",
     position: "Cashier",
     day: "Tuesday",
     startTime: "9:00 AM",
@@ -33,7 +33,7 @@ export const shiftData = [
   },
   {
     id: 5,
-    employee: "Bob Smith",
+    employee: "Billy Smith",
     position: "Cook",
     day: "Tuesday",
     startTime: "10:00 AM",
@@ -41,7 +41,7 @@ export const shiftData = [
   },
   {
     id: 6,
-    employee: "Charlie Davis",
+    employee: "Dave Harper",
     position: "Manager",
     day: "Tuesday",
     startTime: "8:00 AM",
@@ -65,7 +65,7 @@ export const shiftData = [
   },
   {
     id: 9,
-    employee: "Charlie Davis",
+    employee: "Clark Kent",
     position: "Manager",
     day: "Wednesday",
     startTime: "8:00 AM",
@@ -73,7 +73,7 @@ export const shiftData = [
   },
   {
     id: 10,
-    employee: "Alice Johnson",
+    employee: "Robin",
     position: "Cashier",
     day: "Thursday",
     startTime: "9:00 AM",
@@ -81,7 +81,7 @@ export const shiftData = [
   },
   {
     id: 11,
-    employee: "Bob Smith",
+    employee: "Nightwing",
     position: "Cook",
     day: "Thursday",
     startTime: "10:00 AM",
@@ -89,7 +89,7 @@ export const shiftData = [
   },
   {
     id: 12,
-    employee: "Charlie Davis",
+    employee: "Batman",
     position: "Manager",
     day: "Thursday",
     startTime: "8:00 AM",
@@ -97,7 +97,7 @@ export const shiftData = [
   },
   {
     id: 13,
-    employee: "Alice Johnson",
+    employee: "Steve Carrol",
     position: "Cashier",
     day: "Friday",
     startTime: "9:00 AM",
@@ -105,7 +105,7 @@ export const shiftData = [
   },
   {
     id: 14,
-    employee: "Bob Smith",
+    employee: "Bobby Buche",
     position: "Cook",
     day: "Friday",
     startTime: "10:00 AM",
@@ -113,7 +113,7 @@ export const shiftData = [
   },
   {
     id: 15,
-    employee: "Charlie Davis",
+    employee: "Charlie Coxs",
     position: "Manager",
     day: "Friday",
     startTime: "8:00 AM",
