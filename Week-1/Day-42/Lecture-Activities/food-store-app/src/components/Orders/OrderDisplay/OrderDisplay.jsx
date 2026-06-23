@@ -1,14 +1,16 @@
 import { groupByCost } from "../../../utils/groupByCost";
+import PriceGroup from "../PriceGroup/PriceGroup";
 
 const OrderDisplay = ({orderData}) => {
 
-    console.log(orderData);
 
-    const groupedOrders = groupByCost(orderData);
+const groupedOrders = groupByCost(orderData);
 
-    console.log(groupedOrders);
   return (
-    <div>OrderDisplay</div>
+    <div>
+        <h1>Products to Order</h1>
+        <PriceGroup groupedOrders={groupedOrders} />
+    </div>
   )
 }
 
