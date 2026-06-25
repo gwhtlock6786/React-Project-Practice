@@ -1,5 +1,6 @@
 import Order from "../Order/Order";
 import { PRICE_RANGES } from "../../../utils/constants";
+import "./PriceGroup.css";
 
 const PriceGroup = ({ groupedOrders }) => {
   const priceGroups = [
@@ -11,12 +12,14 @@ const PriceGroup = ({ groupedOrders }) => {
   return (
     <>
       {priceGroups.map((priceRange) => (
-        <section key={priceRange}>
-          <h2>{priceRange}</h2>
+        <section key={priceRange} className="price-group">
+          <h3>{priceRange}</h3>
 
-          {(groupedOrders[priceRange] || []).map((order) => (
-            <Order key={order.id} order={order} />
-          ))}
+          <div className="orders-grid">
+            {(groupedOrders[priceRange] || []).map((order) => (
+              <Order key={order.id} order={order} />
+            ))}
+          </div>
         </section>
       ))}
     </>
