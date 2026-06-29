@@ -1,6 +1,7 @@
 
 
 import './App.css'
+import Counter from './components/Counter/Counter'
 
 function App() {
 
@@ -9,6 +10,8 @@ function App() {
     <>
     <h1>Counter Example</h1>
     <hr />
+
+    <Counter />
        
     </>
   )
