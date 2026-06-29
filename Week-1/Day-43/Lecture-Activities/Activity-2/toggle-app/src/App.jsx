@@ -1,5 +1,6 @@
 
 import './App.css'
+import Toggle from './components/Toggle/Toggle'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     
       <>
       <h2>Toggle Example</h2>
+      <Toggle />
       </>
         
         
